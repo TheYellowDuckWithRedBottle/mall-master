@@ -1,4 +1,5 @@
 const pxtovw = require('postcss-px-to-viewport');
+
 module.exports={
     css:{
         loaderOptions:{
@@ -27,15 +28,4 @@ module.exports={
                 ]
             }
         }
-    },
-    configureWebpack:{
-        resolve:{
-            alias:{
-                'assets':'@/assets',
-                'components':'@/components',
-                'network':'@/network',
-                'views':'@/views',
-            }
-        }
-    }
-}
+}}
